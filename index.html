@@ -72,10 +72,10 @@
               <a class="nav-link js-scroll" href="#work">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="#service">SERVICES</a>
+              <a class="nav-link js-scroll" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="#blog">BLOG</a>
+              <a class="nav-link js-scroll" href="#service">SERVICES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll" href="#contact">CONTACT</a>
@@ -484,6 +484,52 @@
     </section>
     <!--/ Section Portfolio End /-->
 
+    <!--/ Section Blog Star /-->
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Blog & Articles
+              </h3>
+              <p class="subtitle-a">
+                Latest insights on AI, Machine Learning, and Technology
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-carousel-container position-relative">
+          <div class="blog-carousel" id="blog-carousel">
+            <div class="row" id="blog-container">
+              <!-- Blog posts will be loaded here dynamically -->
+            </div>
+          </div>
+          
+          <!-- Navigation Arrows -->
+          <button class="carousel-btn carousel-btn-left" id="prevBtn" onclick="navigateBlog(-1)">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+          <button class="carousel-btn carousel-btn-right" id="nextBtn" onclick="navigateBlog(1)">
+            <i class="fa fa-chevron-right"></i>
+          </button>
+          
+          <!-- Dots Indicator -->
+          <div class="carousel-dots text-center mt-3" id="carousel-dots"></div>
+        </div>
+        
+        <div class="row">
+          <div class="col-12 text-center mt-4">
+            <a href="https://medium.com/@ganeshdoosa" target="_blank" class="btn btn-primary">
+              View All Articles on Medium
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Blog End /-->
+
     <!--/ Section Services Star /-->
     <section id="service" class="services-mf route">
       <div class="container">
@@ -653,121 +699,6 @@
       </div>
     </div>
 
-    <!--/ Section Blog Star /-->
-    <!-- <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Guilherme Luis</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Guilherme Luis</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Guilherme Luis</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-    <!--/ Section Blog End /-->
-
     <!--/ Section Contact-Footer Star /-->
     <section
       class="paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -787,16 +718,16 @@
                       </h5>
                     </div>
                     <div>
+                      <div id="form-message" style="display: none; padding: 15px; margin-bottom: 20px; border-radius: 5px;"></div>
+                      
                       <form
-                        action=""
-                        method="post"
-                        role="form"
                         class="contactForm"
+                        id="contactForm"
                       >
-                        <div id="sendmessage">
-                          Your message has been sent, thank you!
-                        </div>
-                        <div id="errormessage"></div>
+                        <input type="hidden" name="access_key" value="46bfcaa5-b188-40d5-98a0-35b40ef641bd">
+                        <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio">
+                        <input type="hidden" name="from_name" value="Portfolio Contact Form">
+                        
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -804,12 +735,9 @@
                                 type="text"
                                 name="name"
                                 class="form-control"
-                                id="name"
                                 placeholder="Your name"
-                                data-rule="minlen:4"
-                                data-msg="Please enter at least 4 chars"
+                                required
                               />
-                              <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
@@ -818,12 +746,9 @@
                                 type="email"
                                 class="form-control"
                                 name="email"
-                                id="email"
                                 placeholder="Your e-mail"
-                                data-rule="email"
-                                data-msg="Please enter a valid email"
+                                required
                               />
-                              <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
@@ -832,12 +757,9 @@
                                 type="text"
                                 class="form-control"
                                 name="subject"
-                                id="subject"
                                 placeholder="Subject"
-                                data-rule="minlen:4"
-                                data-msg="Enter at least 8 characters of the subject"
+                                required
                               />
-                              <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
@@ -846,17 +768,16 @@
                                 class="form-control"
                                 name="message"
                                 rows="5"
-                                data-rule="required"
-                                data-msg="Please write something"
                                 placeholder="Message"
+                                required
                               ></textarea>
-                              <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <button
                               type="submit"
                               class="button button-a button-big button-rouded"
+                              id="submit-btn"
                             >
                               Send Message
                             </button>
@@ -964,5 +885,291 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    
+    <!-- Contact Form Script -->
+    <script>
+      let isSubmitting = false;
+      
+      document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        // Prevent double submission
+        if (isSubmitting) return;
+        isSubmitting = true;
+        
+        const submitBtn = document.getElementById('submit-btn');
+        const messageDiv = document.getElementById('form-message');
+        
+        // Show loading state
+        submitBtn.innerHTML = 'Sending...';
+        submitBtn.disabled = true;
+        
+        try {
+          const formData = new FormData(this);
+          const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+          });
+          
+          if (response.ok) {
+            // Success
+            messageDiv.style.display = 'block';
+            messageDiv.style.backgroundColor = '#d4edda';
+            messageDiv.style.color = '#155724';
+            messageDiv.style.border = '1px solid #c3e6cb';
+            messageDiv.innerHTML = '✓ Your message has been sent successfully! Thank you for contacting me.';
+            
+            // Reset form
+            this.reset();
+          } else {
+            throw new Error('Form submission failed');
+          }
+        } catch (error) {
+          // Error
+          messageDiv.style.display = 'block';
+          messageDiv.style.backgroundColor = '#f8d7da';
+          messageDiv.style.color = '#721c24';
+          messageDiv.style.border = '1px solid #f5c6cb';
+          messageDiv.innerHTML = '✗ Sorry, there was an error sending your message. Please try again or contact me directly.';
+        }
+        
+        // Reset button and submission flag
+        submitBtn.innerHTML = 'Send Message';
+        submitBtn.disabled = false;
+        isSubmitting = false;
+        
+        // Hide message after 5 seconds
+        setTimeout(() => {
+          messageDiv.style.display = 'none';
+        }, 5000);
+      });
+    </script>
+    
+    <!-- Blog Articles Script -->
+    <script>
+      // Blog articles data - you can update this array with your latest articles
+      const blogArticles = [
+        {
+          title: "The Mathematical Background of Lasso and Ridge Regression",
+          description: "Deep dive into the mathematical foundations of regularization techniques in machine learning, exploring how Lasso and Ridge regression work under the hood.",
+          category: "Machine Learning",
+          url: "https://medium.com/codex/mathematical-background-of-lasso-and-ridge-regression-23b74737c817",
+          date: "Published",
+          readTime: "10 min",
+          platform: "Medium"
+        },
+        {
+          title: "Getting Started with Generative AI in Production",
+          description: "A comprehensive guide to implementing Generative AI solutions in real-world applications, covering best practices and common pitfalls.",
+          category: "Generative AI",
+          url: "https://medium.com/@ganeshdoosa/your-article-url-1",
+          date: "Dec 2024",
+          readTime: "8 min",
+          platform: "Medium"
+        },
+        {
+          title: "Deep Learning for Computer Vision: Advanced Techniques",
+          description: "Exploring cutting-edge computer vision techniques using deep learning, including practical implementations and case studies.",
+          category: "Computer Vision",
+          url: "https://medium.com/@ganeshdoosa/your-article-url-2",
+          date: "Nov 2024",
+          readTime: "12 min",
+          platform: "Medium"
+        },
+        {
+          title: "Building Scalable ML Pipelines with MLOps",
+          description: "Learn how to design and implement robust machine learning pipelines that scale from prototype to production.",
+          category: "MLOps",
+          url: "https://medium.com/@ganeshdoosa/your-article-url-3",
+          date: "Oct 2024",
+          readTime: "10 min",
+          platform: "Medium"
+        }
+      ];
+      
+      // Function to create blog card HTML
+      function createBlogCard(article) {
+        return `
+          <div class="col-md-4 mb-4">
+            <div class="card card-blog h-100">
+              <div class="card-img">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                  <i class="fa fa-file-text-o"></i>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">${article.category}</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="${article.url}" target="_blank">${article.title}</a>
+                </h3>
+                <p class="card-description flex-grow-1">
+                  ${article.description}
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <img src="img/dg-profile-pic.jpeg" alt="" class="avatar rounded-circle">
+                  <span class="author">Ganesh Doosa</span>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> ${article.readTime}
+                </div>
+                <div class="post-platform">
+                  <small class="text-muted">${article.platform} • ${article.date}</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+      
+      // Blog carousel variables
+      let currentSlide = 0;
+      const articlesPerSlide = 3;
+      
+      // Navigation function
+      function navigateBlog(direction) {
+        const totalSlides = Math.ceil(blogArticles.length / articlesPerSlide);
+        currentSlide += direction;
+        
+        if (currentSlide >= totalSlides) currentSlide = 0;
+        if (currentSlide < 0) currentSlide = totalSlides - 1;
+        
+        displayBlogSlide();
+        updateDots();
+      }
+      
+      // Display current slide
+      function displayBlogSlide() {
+        const blogContainer = document.getElementById('blog-container');
+        const startIndex = currentSlide * articlesPerSlide;
+        const endIndex = startIndex + articlesPerSlide;
+        const currentArticles = blogArticles.slice(startIndex, endIndex);
+        
+        const blogHTML = currentArticles.map(article => createBlogCard(article)).join('');
+        blogContainer.innerHTML = blogHTML;
+      }
+      
+      // Update dots indicator
+      function updateDots() {
+        const dotsContainer = document.getElementById('carousel-dots');
+        const totalSlides = Math.ceil(blogArticles.length / articlesPerSlide);
+        
+        let dotsHTML = '';
+        for (let i = 0; i < totalSlides; i++) {
+          dotsHTML += `<span class="dot ${i === currentSlide ? 'active' : ''}" onclick="goToSlide(${i})"></span>`;
+        }
+        dotsContainer.innerHTML = dotsHTML;
+      }
+      
+      // Go to specific slide
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        displayBlogSlide();
+        updateDots();
+      }
+      
+      // Load blog articles when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        displayBlogSlide();
+        updateDots();
+        
+        // Add CSS for carousel
+        const style = document.createElement('style');
+        style.textContent = `
+          .blog-carousel-container {
+            position: relative;
+            overflow: hidden;
+          }
+          
+          .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #0078ff;
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 18px;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 120, 255, 0.3);
+          }
+          
+          .carousel-btn:hover {
+            background: #0056b3;
+            transform: translateY(-50%) scale(1.1);
+          }
+          
+          .carousel-btn-left {
+            left: -80px;
+          }
+          
+          .carousel-btn-right {
+            right: -80px;
+          }
+          
+          .blog-carousel-container {
+            margin: 0 100px;
+          }
+          
+          .carousel-dots {
+            margin-top: 20px;
+          }
+          
+          .dot {
+            height: 12px;
+            width: 12px;
+            margin: 0 5px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+          
+          .dot.active, .dot:hover {
+            background-color: #0078ff;
+          }
+          
+          @media (max-width: 768px) {
+            .carousel-btn {
+              width: 40px;
+              height: 40px;
+              font-size: 14px;
+            }
+            .carousel-btn-left {
+              left: -60px;
+            }
+            .carousel-btn-right {
+              right: -60px;
+            }
+            .blog-carousel-container {
+              margin: 0 80px;
+            }
+          }
+          
+          @media (max-width: 576px) {
+            .blog-carousel-container {
+              margin: 0 20px;
+            }
+            .carousel-btn-left {
+              left: -30px;
+            }
+            .carousel-btn-right {
+              right: -30px;
+            }
+          }
+        `;
+        document.head.appendChild(style);
+      });
+    </script>
   </body>
 </html>
